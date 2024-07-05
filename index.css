@@ -1,0 +1,527 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+body {
+  background-image: url(night\ sky.jpg);
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+.Navigation {
+  background-color: rgb(246, 252, 252);
+  display: flex;
+  flex-direction: row;
+  padding: 1vw;
+  object-fit: cover;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  color: rgb(3, 11, 58);
+  margin-bottom: 0.2vw;
+  align-items: top;
+}
+.Name {
+  margin-right: auto;
+  float: left;
+  font-size: 3vw;
+  background-color: rgb(246, 252, 252);
+}
+.icons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  font-size: 1vw;
+  justify-content: space-around;
+  float: inline-end;
+  align-items: center;
+  color: rgb(3, 11, 58);
+  margin-left: auto;
+  background-color: rgb(246, 252, 252);
+}
+.icons .Education {
+  display: block;
+  padding: 1vw;
+  text-decoration: none;
+  color: rgb(3, 11, 58);
+  background-color: rgb(246, 252, 252);
+}
+.icons .Education:hover {
+  color: rgb(178, 208, 234);
+}
+.icons .Skills {
+  display: block;
+  padding: 1vw;
+  background-color: rgb(246, 252, 252);
+  color: rgb(3, 11, 58);
+  text-decoration: none;
+}
+.icons .Skills:hover {
+  color: rgb(178, 208, 234);
+}
+.icons .Contact {
+  display: block;
+  padding: 1vw;
+  background-color: rgb(246, 252, 252);
+  color: rgb(3, 11, 58);
+  text-decoration: none;
+}
+.icons .Contact:hover {
+  color: rgb(178, 208, 234);
+}
+
+.card {
+  height: 22vw;
+  width: 35vw;
+  background-color: rgb(246, 252, 252);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30vh;
+  margin-bottom: 0.5vw;
+  color: rgb(3, 11, 58);
+}
+.card .imge {
+  height: inherit;
+  width: 50%;
+  float: left;
+}
+.card .imge .me {
+  height: 22vw;
+  width: 18.5vw;
+}
+.card .in {
+  height: inherit;
+  width: 50%;
+  border: rgb(3, 11, 58);
+  background-color: rgb(221, 227, 227);
+  float: right;
+  padding: 3vw;
+  font-size: 1vw;
+  white-space: initial;
+  margin-top: 0;
+}
+
+.min {
+  background-color: rgb(221, 227, 227);
+  width: 100%;
+  height: 17vw;
+  margin: 0;
+}
+.min .social {
+  background-color: rgb(3, 11, 58);
+  width: 35vw;
+  height: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5vh;
+}
+.min .social .link {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(3, 11, 58);
+
+  justify-content: space-evenly;
+}
+
+.min .social .link .fb {
+  background-color: rgb(3, 11, 58);
+  width: 2vw;
+  height: 2vw;
+
+  border: rgb(3, 11, 58);
+}
+.min .social .link .insta {
+  background-color: rgb(3, 11, 58);
+  width: 2vw;
+  height: 2vw;
+  border: rgb(3, 11, 58);
+}
+.min .social .link .linkedin {
+  background-color: rgb(3, 11, 58);
+  width: 2vw;
+  height: 2vw;
+  border: rgb(3, 11, 58);
+}
+.min .social .link .github {
+  background-color: rgb(3, 11, 58);
+  width: 2vw;
+  height: 2vw;
+  border: rgb(3, 11, 58);
+}
+.min .ab {
+  padding-top: 3vw;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(221, 227, 227);
+  font-size: 1.3vw;
+  color: rgb(3, 11, 58);
+}
+
+.ed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(246, 252, 252);
+  font-size: 2vw;
+  color: rgb(3, 11, 58);
+  height: 2.5vw;
+}
+
+#educate {
+  background-color: white;
+  width: 100%;
+  height: 17vw;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid rgb(197, 193, 193);
+  color: rgb(3, 11, 58);
+  padding-top: 3vw;
+  white-space: initial;
+}
+#educate .yr {
+  background-color: white;
+  margin-left: 42vw;
+  font-size: 1vw;
+  text-align: right;
+  padding-right: 2vw;
+}
+
+#educate .n {
+  padding-left: 2vw;
+  font-size: 1vw;
+  display: block;
+}
+#educate .n .info {
+  list-style-type: none;
+}
+.sk {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(3, 11, 58);
+  font-size: 2vw;
+  height: 2.5vw;
+  color: white;
+  border-bottom: 1px solid rgb(197, 193, 193);
+  border-top: 1px solid rgb(197, 193, 193);
+}
+
+#skills {
+  background-color: rgba(52, 49, 49, 0.7);
+  width: 100%;
+  height: 24vw;
+}
+#skills .skn {
+  float: left;
+  width: 50%;
+  height: 24vw;
+  display: flex;
+  flex-direction: column;
+  padding: 4vw;
+  font-size: 1.3vw;
+  white-space: initial;
+}
+#skills .skn .java {
+  background-color: rgba(121, 125, 133, 0.3);
+  height: 2vw;
+  width: 12vw;
+  color: rgb(219, 234, 246);
+  padding: 0.5vw 1vw;
+  text-align: center;
+  margin-left: auto;
+}
+#skills .skn .html {
+  background-color: rgba(121, 125, 133, 0.3);
+  padding: 0.5vw 1vw;
+  color: rgb(219, 234, 246);
+  height: 2vw;
+  width: 12vw;
+  text-align: center;
+  margin-left: auto;
+}
+#skills .skn .css {
+  background-color: rgba(121, 125, 133, 0.3);
+  padding: 0.5vw 1vw;
+  color: rgb(219, 234, 246);
+  height: 2vw;
+  width: 12vw;
+  text-align: center;
+  margin-left: auto;
+}
+#skills .skn .js {
+  background-color: rgba(121, 125, 133, 0.3);
+  padding: 0.5vw 1vw;
+  color: rgb(219, 234, 246);
+  height: 2vw;
+  width: 12vw;
+  text-align: center;
+  margin-left: auto;
+}
+#skills .skn .c {
+  background-color: rgba(121, 125, 133, 0.3);
+  padding: 0.5vw 1vw;
+  color: rgb(219, 234, 246);
+  height: 2vw;
+  width: 12vw;
+  text-align: center;
+  margin-left: auto;
+}
+
+#skills .skn .eng {
+  background-color: rgba(121, 125, 133, 0.3);
+  padding: 0.5vw 1vw;
+  color: rgb(219, 234, 246);
+  float: left;
+  height: 2vw;
+  width: 12vw;
+  text-align: center;
+}
+#skills .skn .bng {
+  background-color: rgba(121, 125, 133, 0.3);
+  padding: 0.5vw 1vw;
+  color: rgb(219, 234, 246);
+  float: left;
+  height: 2vw;
+  width: 12vw;
+  text-align: center;
+}
+#skills .skn .hindi {
+  background-color: rgba(121, 125, 133, 0.3);
+  padding: 0.5vw 1vw;
+  color: rgb(219, 234, 246);
+  float: left;
+  height: 2vw;
+  width: 12vw;
+  text-align: center;
+}
+.ct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(221, 227, 227);
+  font-size: 2vw;
+  height: 2.5vw;
+  color: rgb(3, 11, 58);
+  border-bottom: 1px solid rgb(252, 250, 250);
+  border-top: 1px solid rgb(255, 250, 250);
+}
+#contact .col {
+  float: left;
+  width: 50%;
+  height: 30vw;
+  background-color: rgb(221, 227, 227);
+  border: 0.1vw solid white;
+  padding: 5vw;
+}
+#contact .col .info {
+  float: right;
+  font-size: 1vw;
+}
+#contact .col .info .submit {
+  width: 30vw;
+  color: white;
+  background-color: rgb(3, 11, 58);
+  font-size: 1vw;
+}
+#contact .col .r {
+  float: left;
+  font-size: 1vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .Name {
+    font-size: 4vw;
+  }
+  .icons {
+    font-size: 3vw;
+  }
+  .card {
+    height: 150vw;
+    width: 80vw;
+    background-color: rgb(246, 252, 252);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12vw;
+    margin-bottom: 0.5vw;
+    color: rgb(3, 11, 58);
+  }
+  .card .imge {
+    height: 89vw;
+    width: 78vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.4vw;
+  }
+  .card .imge .me {
+    height: 89vw;
+    width: 78vw;
+  }
+  .card .in {
+    height: 40vw;
+    width: 78vw;
+    padding: 3vw;
+    font-size: 3vw;
+    white-space: initial;
+    margin-bottom: 0;
+  }
+
+  .min {
+    background-color: rgb(221, 227, 227);
+    width: 100%;
+    height: 27vw;
+    margin: 0;
+  }
+  .min .social {
+    background-color: rgb(3, 11, 58);
+    width: 78vw;
+    height: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5vw;
+  }
+
+  .min .ab {
+    padding-top: 3vw;
+    font-size: 2.3vw;
+    color: rgb(3, 11, 58);
+  }
+
+  .ed {
+    height: 4.6vw;
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  #educate {
+    height: 25vw;
+  }
+  #educate .yr {
+    font-size: 2.3vw;
+    text-align: right;
+    padding-right: 1vw;
+    margin-left: 35.5vw;
+  }
+
+  #educate .n {
+    padding-left: 2vw;
+    font-size: 2.3vw;
+    display: block;
+
+    white-space: initial;
+  }
+  #educate .n .info {
+    list-style-type: none;
+  }
+  .sk {
+    font-size: 3vw;
+    height: 4.6vw;
+  }
+
+  #skills {
+    background-color: rgba(52, 49, 49, 0.7);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 62vw;
+  }
+  #skills .skn {
+    width: 100%;
+    height: 36vw;
+    display: flex;
+    flex-direction: column;
+    padding: 4vw;
+    font-size: 3vw;
+  }
+  #skills .skn .java {
+    height: 4.3vw;
+    width: 25vw;
+    padding: 1vw 3vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #skills .skn .html {
+    height: 4.3vw;
+    width: 25vw;
+    padding: 1vw 3vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #skills .skn .css {
+    height: 4.3vw;
+    width: 25vw;
+    padding: 1vw 3vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #skills .skn .js {
+    height: 4.3vw;
+    width: 25vw;
+    padding: 1vw 3vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #skills .skn .c {
+    height: 4.3vw;
+    width: 25vw;
+    padding: 1vw 3vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #skills .skn .eng {
+    height: 4.3vw;
+    width: 25vw;
+    padding: 1vw 3vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #skills .skn .bng {
+    height: 4.3vw;
+    width: 25vw;
+    padding: 1vw 3vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #skills .skn .hindi {
+    height: 4.3vw;
+    width: 25vw;
+    padding: 1vw 3vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ct {
+    font-size: 3vw;
+    height: 4.6vw;
+  }
+  #contact .col {
+    width: 100%;
+    height: auto;
+    padding: 7vw;
+  }
+  #contact .col .info {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3vw;
+    float: none;
+  }
+  #contact .col .info .submit {
+    width: 30vw;
+    font-size: 3vw;
+  }
+  #contact .col .r {
+    font-size: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+}
