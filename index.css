@@ -357,18 +357,18 @@ body {
   }
   .card .imge {
     height: 89vw;
-    width: 78vw;
+    width: 80vw;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0.4vw;
   }
   .card .imge .me {
     height: 89vw;
-    width: 78vw;
+    width: 80vw;
   }
   .card .in {
-    height: 40vw;
-    width: 78vw;
+    height: 61vw;
+    width: 80vw;
     padding: 3vw;
     font-size: 3vw;
     white-space: initial;
@@ -383,11 +383,11 @@ body {
   }
   .min .social {
     background-color: rgb(3, 11, 58);
-    width: 78vw;
-    height: 5vh;
+    width: 80vw;
+    height: 5vw;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0.5vw;
+    padding-top: 1.3vw;
   }
 
   .min .ab {
